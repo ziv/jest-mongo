@@ -1,5 +1,9 @@
-# node-js-typescript-library-template
+# jest-mongo
 
-* [ ] change the `REPO_NAME` in `package.json`
-* [ ] uncomment relevant `.yml` files in `.github` directory
-* [ ] enjoy!
+`jest` preset for mongo testing.
+
+---
+
+![xpr-local-storage-nest](https://badgen.net/github/license/ziv/jest-mongo)
+![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg)
+![@xpr](https://badgen.net/badge/powered%20by/@xpr/pink)
