@@ -1,5 +1,5 @@
 {
-  "name": "@xpr/REPO_NAME",
+  "name": "@xpr/jest-mongo",
   "version": "0.0.0",
   "description": "",
   "scripts": {
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ziv/REPO_NAME.git"
+    "url": "git+https://github.com/ziv/jest-mongo.git"
   },
   "publishConfig": {
     "access": "public"
@@ -21,9 +21,9 @@
   "author": "Ziv Perry (@xpr)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ziv/REPO_NAME/issues"
+    "url": "https://github.com/ziv/jest-mongo/issues"
   },
-  "homepage": "https://github.com/ziv/REPO_NAME#readme",
+  "homepage": "https://github.com/ziv/jest-mongo#readme",
   "devDependencies": {
     "@semantic-release/changelog": "^5.0.1",
     "@semantic-release/commit-analyzer": "^8.0.1",
@@ -105,5 +105,9 @@
     "bracketSpacing": true,
     "trailingComma": "none",
     "arrowParens": "avoid"
+  },
+  "dependencies": {
+    "@xpr/swiss-knife": "^1.9.0",
+    "mongodb-memory-server": "^7.2.0"
   }
 }
